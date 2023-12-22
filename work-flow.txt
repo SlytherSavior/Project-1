@@ -1,0 +1,17 @@
+Authentication webpage
+
+
+html first --> then later jsp
+menu css
+
+
+1) log in page - > then open dashboard
+2) later turn the .html file to .jsp( java server pages) file
+3) spring boot - > for this 
+			user table from java 
+			connection from java and a form enter data in user table	
+			add username and passwords
+			
+
+Task 1 : 
+	Create A html and css webpage 1 for login page and another for the menu
