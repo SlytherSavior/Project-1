@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to bottom right, #485563, #29323c);
+  font-family: 'Arial', sans-serif; /* Specify a font-family for better cross-browser compatibility */
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+#login-form {
+  display: grid;
+  place-items: center;
+  background-color: white; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+label {
+  color: #fff; /* Set label text color to white */
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+.tr-btn{ 
+  cursor: pointer;
+  transition: background-color 1.2s;
+}
+.tr-btn:hover{ 
+  background-color: aqua;
+}
+

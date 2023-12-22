@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style-home.css">
+  <script src="scripts/script-main.js"></script>
   <title>Login page</title>
 </head>
 <body>
 
-  <form>
+  <form  id="login-form">
+    <p>Please fill up your information</p>
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" placeholder="Enter your username" required>
     <br>
@@ -16,8 +18,8 @@
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" placeholder="Enter your password" required>
     <br>
-    <input type="reset" value="Clear">
-    <input type="submit" value="Login">
+    <input type="reset" value="Clear" class="tr-btn" onclick="toogleBackground(this)">
+    <input type="submit" value="Login" class="tr-btn" onclick="toogleBackground(this)">
   </form>
 
 </body>
