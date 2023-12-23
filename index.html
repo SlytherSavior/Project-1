@@ -4,23 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style-home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <script src="scripts/script-main.js"></script>
   <title>Login page</title>
 </head>
 <body>
 
-  <form  id="login-form">
-    <p>Please fill up your information</p>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" placeholder="Enter your username" required>
-    <br>
+  <div id="login-form">
+    <h2><i class="fas fa-user-circle"></i> Login</h2>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" placeholder="Enter your password" required>
-    <br>
-    <input type="reset" value="Clear" class="tr-btn" onclick="toogleBackground(this)">
-    <input type="submit" value="Login" class="tr-btn" onclick="toogleBackground(this)">
-  </form>
+    <form>
+      <label for="username"><i class="fas fa-user"></i> Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      
+      <label for="password"><i class="fas fa-lock"></i> Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+      <button type="submit" class="tr-btn"><i class="fas fa-sign-in-alt"></i> Login</button>
+    </form>
+  </div>
 
 </body>
 </html>
