@@ -13,6 +13,8 @@ body {
   color: white;
   padding-top: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 #side-menu ul {
@@ -24,11 +26,27 @@ body {
 #side-menu ul li {
   padding: 10px;
   border-bottom: 1px solid #555;
+  cursor: pointer;
+  transition: background-color 0.3s; 
 }
 
-#side-menu ul li i {
+#side-menu ul li:hover , .log-out:hover{
+  background-color: #555;
+}
+
+#side-menu ul li i, .log-out i {
   margin-right: 10px;
 }
+
+.log-out {
+  padding: 10px;
+  border: 1px solid #555;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  margin-top:auto;
+}
+
+
 
 #content {
   flex: 1;
